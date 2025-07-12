@@ -26,14 +26,14 @@ Example 1:
 ```
 Needs of the patient (Input):
 
-[250, 0, 250, 0, 0, 0] → needs 250 HP and 250 Defense
+[249, 0, 249, 0, 0, 0] → needs 250 HP and 250 Defense
 
-250 HP = 25 vitamins * 10
+249 HP = 25 vitamins * 10 – 1 injections * 1
 
-250 Defense = 25 vitamins * 10
+249 Defense = 25 vitamins * 10  – 1 injections * 1
 
 Output:
-[(25,0),(0,0),(25,0),(0,0),(0,0),(0,0)]
+[(25,1),(0,0),(25,1),(0,0),(0,0),(0,0)]
 ```
 
 
